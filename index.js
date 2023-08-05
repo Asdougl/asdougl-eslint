@@ -11,6 +11,7 @@ module.exports = {
     "plugin:lodash/recommended",
     "plugin:prettier/recommended",
   ],
+  plugins: ["react-refresh"],
   rules: {
     "prettier/prettier": 2,
     "@typescript-eslint/consistent-type-imports": 2,
@@ -22,5 +23,9 @@ module.exports = {
     "lodash/prefer-lodash-method": 0,
     "lodash/prefer-constant": 0,
     "react/prop-types": 0,
+    "react-refresh/only-export-components": [
+      "warn",
+      { allowConstantExport: true },
+    ],
   },
 };
