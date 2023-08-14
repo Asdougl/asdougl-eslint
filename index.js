@@ -22,10 +22,18 @@ module.exports = {
     "react/jsx-props-no-spreading": 2,
     "lodash/prefer-lodash-method": 0,
     "lodash/prefer-constant": 0,
-    "react/prop-types": 0,
     "react-refresh/only-export-components": [
       "warn",
       { allowConstantExport: true },
     ],
   },
+  overrides: [
+    {
+      files: ["*.ts", "*.tsx"],
+      rules: {
+        "react/jsx-props-no-spreading": 2,
+        "react/prop-types": 0,
+      },
+    },
+  ],
 };
