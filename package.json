@@ -1,6 +1,6 @@
 {
   "name": "@asdougl/eslint-config",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Asdougl's eslint and prettier configs",
   "main": "index.js",
   "keywords": [],

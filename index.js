@@ -17,6 +17,7 @@ module.exports = {
     "@typescript-eslint/consistent-type-imports": 2,
     "react/react-in-jsx-scope": 0,
     "import/order": 2,
+    "import/namespace": 0,
     "no-warning-comments": [2, { terms: ["TODO", "FIXME"], location: "start" }],
     "no-console": 1,
     "react/jsx-props-no-spreading": 2,
